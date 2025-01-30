@@ -6,8 +6,13 @@
         "typescript": "^5.0.0"
     },
     "dependencies": {
-        "@pulumi/azure-native": "^2.83.0",
+        "@pulumi/azure-native": "^2.84.0",
         "@pulumi/docker": "^4.6.1",
-        "@pulumi/pulumi": "^3.113.0"
+        "@pulumi/pulumi": "^3.147.0"
+    },
+    "scripts": {
+        "dev": "pulumi up --stack dev",
+        "preview": "pulumi preview",
+        "destroy": "pulumi destroy --stack dev"
     }
 }
